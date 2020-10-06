@@ -1,0 +1,1 @@
+Here I increased storage of EC2, RDS, S3 as well as I added WAF for extra security. I preferred higher configuration for better performance and work and availability.

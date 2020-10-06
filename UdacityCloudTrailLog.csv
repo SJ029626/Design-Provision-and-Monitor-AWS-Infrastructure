@@ -1,0 +1,8 @@
+Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
+683401a5-feb3-4ba1-8348-37d011afcb00,"2020-06-02, 03:33:51 AM",CloudTrail,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""cloudtraildev""}]",,us-east-1,BucketAlreadyExists,157.37.178.175
+07f396bd-7891-4fe2-ad3e-968edef20df1,"2020-06-02, 03:33:37 AM",CloudTrail,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""clouddev""}]",,us-east-1,BucketAlreadyExists,157.37.178.175
+8ab52289-db6b-4291-819a-5b2c4d21d8d3,"2020-06-02, 03:31:04 AM",CloudTrail,ChangePassword,,,,us-east-1,,AWS Internal
+9ed29e7e-84da-4acd-845a-68185165dca2,"2020-06-02, 03:29:46 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,157.37.178.175
+8692622b-2f07-4802-8766-5d9e0decd107,"2020-06-02, 03:26:29 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,157.37.178.175
+28ade254-5710-45b5-acb7-ca4b31316980,"2020-06-02, 03:26:28 AM",root,CreateAccessKey,IAM AccessKey and 1 more,"[{""resourceType"":""AWS::IAM::AccessKey"",""resourceName"":""AKIA2M66F36LBPY4HHEK""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,157.37.178.175
+c95e8335-b48b-4832-8132-3e32bfa5143c,"2020-06-02, 03:26:28 AM",root,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/IAMUserChangePassword""}]",,us-east-1,,157.37.178.175

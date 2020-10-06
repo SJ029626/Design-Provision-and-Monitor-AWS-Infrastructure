@@ -1,0 +1,2 @@
+To accommodate the new reduced budget, I modified the resource configuration of the Amazon RDS and decrease the storage capacity as well as EC2 storage capacity.
+So I can say here that I changed it  to “Reserved Instances”.

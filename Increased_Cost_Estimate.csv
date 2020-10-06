@@ -1,0 +1,16 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (Ohio),Amazon EC2,0,3890.82,46689.84,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (3 TB), Instance type (t3.medium)"
+Increased_Cost_Estimate,US East (Ohio),Amazon RDS for MySQL,0,9559.67,114716.04,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (4 TB), Instance type (db.m5.12xlarge)"
+Increased_Cost_Estimate,US East (Ohio),S3 Standard,0,230,2760,USD,S3 Standard storage (10000 GB per month)
+Increased_Cost_Estimate,US East (Ohio),Data Transfer,0,0,0,USD,Data Transfer
+Increased_Cost_Estimate,US East (Ohio),Amazon Route 53,0,365,4380,USD,Number of Elastic Network Interfaces (4)
+Increased_Cost_Estimate,US East (Ohio),Elastic Load Balancing,0,324.85,3898.2,USD,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,149.4,1792.8,USD,Number of NAT Gateways (4)
+Increased_Cost_Estimate,US East (Ohio),Amazon CloudWatch,0,3000,36000,USD,
+Increased_Cost_Estimate,US East (Ohio),AWS Web Application Firewall (WAF),0,510,6120,USD,"Number of Web Access Control Lists (Web ACLs) utilized (100 per month), Number of Rules added per Web ACL (10 per month)"
+Increased_Cost_Estimate,US East (Ohio),Amazon Elastic IP,0,262.8,3153.6,USD,"Number of EC2 instances (8), Number of EIPs per instance (10)"
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+"Reason: Here I increased storage of EC2, RDS, S3 as well as I added WAF for extra security. I preferred higher configuration for better performance and work and availability.",,,,,,,

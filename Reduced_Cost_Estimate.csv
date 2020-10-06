@@ -1,0 +1,18 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Reduced_Cost_Estimate,US East (Ohio),Amazon EC2,0,552.42,6629.04,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB)"
+Reduced_Cost_Estimate,US East (Ohio),Amazon RDS for MySQL,0,3844.656,46135.87,USD,"Quantity (1), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.m5.12xlarge)"
+Reduced_Cost_Estimate,US East (Ohio),S3 Standard,0,23,276,USD,S3 Standard storage (1000 GB per month)
+Reduced_Cost_Estimate,US East (Ohio),Data Transfer,0,0,0,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+"
+Reduced_Cost_Estimate,US East (Ohio),Amazon Route 53,0,365,4380,USD,Number of Elastic Network Interfaces (4)
+Reduced_Cost_Estimate,US East (Ohio),Elastic Load Balancing,0,324.85,3898.2,USD,Number of Application Load Balancers (2)
+Reduced_Cost_Estimate,US East (Ohio),Amazon Virtual Private Cloud (VPC),0,37.35,448.2,USD,Number of NAT Gateways (1)
+Reduced_Cost_Estimate,US East (Ohio),Amazon Elastic IP,0,29.2,350.4,USD,"Number of EC2 instances (8), Number of EIPs per instance (2)"
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+,,,,,,,
+"Reason: To accommodate the new reduced budget, I modified the resource configuration of the Amazon RDS and decrease the storage capacity as well as EC2 storage capacity.",,,,,,,
+So I can say here that I changed it  to “Reserved Instances”.,,,,,,,
